@@ -33,6 +33,8 @@ permalink: /:title/
 
 # Build settings
 theme: minima
+minima:
+  skin: dark
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
