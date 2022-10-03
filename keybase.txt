@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/bqst
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://bqst.fr
+  * I am bqst (https://keybase.io/bqst) on keybase.
+  * I have a public key ASBcpCnHtFNNaFepOs_DDH2kK7slNFVHvBe1-WiEPezJuAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012013e50edb5d2d8c5321d297d0680ceeb1b2f3bd38de99df37f6954f45506c1e0d0a",
+      "host": "keybase.io",
+      "kid": "01205ca429c7b4534d6857a93acfc30c7da42bbb25345547bc17b5f968843decc9b80a",
+      "uid": "d6c5c99931993fc89e0c3ae38b68b819",
+      "username": "bqst"
+    },
+    "merkle_root": {
+      "ctime": 1664831316,
+      "hash": "4491a213f7b14259432229c74dfcc7bea5b6ed61c45700cbc24350fda02215cc0cb560fc5fba34dba35a480d3edb6d13d0023ffec8241b2a786a32b359eac1a0",
+      "hash_meta": "dfea5574df532412f1044bf911ecd163017f6bb977687a77aaab6825f7ff5937",
+      "seqno": 23305130
+    },
+    "service": {
+      "entropy": "4M+6HkAkOVB2ac0brP3LSmO6",
+      "hostname": "bqst.fr",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "6.0.1"
+  },
+  "ctime": 1664831339,
+  "expire_in": 504576000,
+  "prev": "1f597c01b66957412a647ddf9add5b350fcb624fdabbc0308107f7f1e9c1afa7",
+  "seqno": 37,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgXKQpx7RTTWhXqTrPwwx9pCu7JTRVR7wXtflohD3sybgKp3BheWxvYWTESpcCJcQgH1l8AbZpV0EqZH3fmt1bNQ/LYk/au8AwgQf38enBr6fEIPSk9uxKDtkUZAC2a/kXVnUN2Muji34SF4mImfKLjdimAgHCo3NpZ8RANuN6yfryu355UQAczFA/h0NcDV1oCelrwtvgHUd7rThxB0yPxIqqjqe84MrPFBnLV5i0ZYL7btPcnhwEvoImCqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIGX2QtlcsXUSHqXH0xdZr4e4ZF6C0GgZoRliywMswYx1o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/bqst
+
+==================================================================
