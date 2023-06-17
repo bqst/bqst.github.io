@@ -2,7 +2,7 @@
 layout: post
 title:  "RMagick installation issue on macOS: Can't find MagickWand.h"
 date:   2019-12-26 11:44:13 +0100
-categories: [ruby, gem, macos]
+categories: [macos, bash]
 tags: [rmagick, imagemagick]
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "How to Convert Country Codes to Flag Emojis in JavaScript"
 date:   2023-06-05 08:45:13 +0100
-categories: [javascript, emoji]
+categories: [javascript, web development]
 tags: [emoji, country, flag]
 ---
 
