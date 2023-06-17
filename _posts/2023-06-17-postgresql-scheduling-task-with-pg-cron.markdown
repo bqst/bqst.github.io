@@ -97,6 +97,7 @@ SELECT cron.unschedule('<unique_job_name>');
 ## Conclusion
 
 Using pg_cron to schedule resource locks in PostgreSQL is a powerful and flexible solution. It simplifies managing resource availability, especially in multi-user environments. With pg_cron, you have granular control over when tasks are executed and can easily automate routine database operations. However, as with any tool, proper usage and understanding are essential to
+fully leverage its capabilities. Always ensure you understand the implications of a scheduled task before implementing it, and remember to follow good security practices to prevent unauthorized access. With these guidelines in mind, pg_cron can greatly enhance the functionality and efficiency of your PostgreSQL database.
 
 ## References
 
