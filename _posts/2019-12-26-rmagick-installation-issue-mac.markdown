@@ -57,7 +57,7 @@ extconf failed, exit code 1
 The rmagic gem compile does not seem capible of following symlinks and therefore cannot find /usr/local/include/wand/MagickWand.h which is there.
 
 rmagick has a problem working with imagemagick (>= 6.8.0-10) from Homebrew.
-To solve the issue in Mac El Capitan, OSX Sierra, High Sierra, Mojave and Catalina, 
+To solve the issue in Mac El Capitan, OSX Sierra, High Sierra, Mojave and Catalina,
 you can either do the following:
 
 update `rmagick` gem by
