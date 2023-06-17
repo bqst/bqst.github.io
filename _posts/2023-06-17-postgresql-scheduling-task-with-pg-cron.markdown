@@ -78,6 +78,14 @@ To list all scheduled jobs, you can run the following command:
 SELECT * FROM cron.job;
 ```
 
+## List All Scheduled Jobs Details / History
+
+To list log details for all scheduled jobs, you can run the following command:
+
+```sql
+SELECT * FROM cron.job_run_details ORDER BY start_time DESC LIMIT 5;
+```
+
 ## Unschedule a Job
 
 To unschedule a job, you can run the following command:
