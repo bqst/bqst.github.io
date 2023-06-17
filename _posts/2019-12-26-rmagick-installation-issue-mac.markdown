@@ -11,8 +11,7 @@ I use a Mac, and homebrew for many packages including ImageMagick. I noticed a v
 When I tried to install rmagick gem with :
 `gem install rmagick`
 
-
-```
+```bash
 Building native extensions. This could take a while...
 ERROR:  Error installing rmagick:
         ERROR: Failed to build gem native extension.
@@ -63,13 +62,13 @@ you can either do the following:
 
 update `rmagick` gem by
 
-```
+```bash
 bundle update rmagick
 ```
 
 or
 
-```
+```bash
 brew unlink imagemagick
 brew install imagemagick@6 && brew link imagemagick@6 --force
 ```
