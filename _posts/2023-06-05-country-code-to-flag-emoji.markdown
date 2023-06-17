@@ -1,9 +1,11 @@
 ---
 layout: post
-title:  "How to Convert Country Codes to Flag Emojis in JavaScript"
-date:   2023-06-05 08:45:13 +0100
+title: "How to Convert Country Codes to Flag Emojis in JavaScript"
+date: 2023-06-05 08:45:13 +0100
 categories: [javascript, web development]
 tags: [emoji, country, flag]
+author: bqst
+summary: "A simple function to convert ISO 3166-1-alpha-2 country codes to flag emojis in JavaScript."
 ---
 
 In JavaScript, you can create a function that can convert ISO 3166-1-alpha-2 code (the two-letter country codes we commonly use) into a flag emoji. The function will look like this:

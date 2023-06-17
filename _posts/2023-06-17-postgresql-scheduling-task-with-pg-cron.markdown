@@ -1,9 +1,11 @@
 ---
 layout: post
-title:  "PostgreSQL: Scheduling a Task with pg_cron"
-date:   2023-06-17 14:45:10 +0100
+title: "PostgreSQL: Scheduling a Task with pg_cron"
+date: 2023-06-17 14:45:10 +0100
 categories: [database, web development]
 tags: [postgresql, pg_cron, scheduling, task]
+author: bqst
+summary: "How to use pg_cron to schedule tasks in PostgreSQL."
 ---
 
 In any application architecture, the ability to efficiently manage resources is pivotal. One common scenario requiring careful resource management is when a specific user is working on a task, such as editing a blog post, and you want to prevent other users from accessing the same resource simultaneously. This requirement, for example, may come up in a Content Management System (CMS) where multiple users have access to edit articles.

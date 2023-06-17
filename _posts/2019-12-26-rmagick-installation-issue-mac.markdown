@@ -1,9 +1,11 @@
 ---
 layout: post
-title:  "RMagick installation issue on macOS: Can't find MagickWand.h"
-date:   2019-12-26 11:44:13 +0100
+title: "RMagick installation issue on macOS: Can't find MagickWand.h"
+date: 2019-12-26 11:44:13 +0100
 categories: [macos, bash]
 tags: [rmagick, imagemagick]
+author: bqst
+summary: "rmagick has a problem working with imagemagick (>= 6.8.0-10) from Homebrew. To solve the issue in Mac El Capitan, OSX Sierra, High Sierra, Mojave, Catalina, you need to install imagemagick@6"
 ---
 
 I use a Mac, and homebrew for many packages including ImageMagick. I noticed a very annoying issue that I had to work around.
