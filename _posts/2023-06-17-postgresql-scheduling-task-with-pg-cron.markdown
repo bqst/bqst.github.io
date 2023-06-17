@@ -26,6 +26,21 @@ CREATE EXTENSION pg_cron;
 
 Remember, only superusers or users with the necessary privileges can add extensions.
 
+## Setting Up the Database
+
+Before we start locking resources, we need to set up the `blog_posts` table. This table will contain the following fields: `id`, `content`, `is_locked`, and `locked_until`. The `is_locked` field indicates if the post is currently locked, and the `locked_until` field stores the timestamp until which the post is locked.
+
+Here's a basic SQL command to create this table:
+
+```sql
+CREATE TABLE blog_posts (
+    id SERIAL PRIMARY KEY,
+    content TEXT,
+    is_locked BOOLEAN DEFAULT false,
+    locked_until TIMESTAMP
+);
+```
+
 ## Using pg_cron for Resource Locking
 
 Let's consider a simple example where we have a blog_posts table with the fields `id`, `content`, `is_locked` and `locked_until`. The `is_locked` field indicates if the post is currently locked, and the `locked_until` field stores the timestamp until which the post is locked.
@@ -43,12 +58,12 @@ WHERE id = <post_id>;
 
 Here, replace `<post_id>` with the id of the blog post.
 
-Now, to automate the unlocking process, you can schedule a cron job with pg_cron to run exactly one hour from now. This job would set `is_locked` back to `false` for this post.
+Now, to automate the unlocking process, you can schedule a cron job with pg_cron to run every 15 minutes. This job would set `is_locked` back to `false` and `locked_until` to `NULL` for this post if the current time is past the `locked_until` timestamp.
 
 To add this job, you'd run a command like:
 
 ```sql
-SELECT cron.schedule('<unique_job_name>', NOW() + INTERVAL '1 hour', $$UPDATE blog_posts SET is_locked = false WHERE id = <post_id>$$);
+SELECT cron.schedule('*/15 * * * *', $$UPDATE blog_posts SET is_locked = false, locked_until = NULL WHERE id = <post_id> AND locked_until <= NOW()$$);
 ```
 
 In this command, replace `<unique_job_name>` with a unique name for this job, and `<post_id>` with the id of the blog post.
