@@ -8,6 +8,8 @@ author: bqst
 summary: "How I use Supabase to handle user authentication and data access in my NextJS and NuxtJS projects."
 ---
 
+![postgres-primary-key]({{ url }}/assets/postgres-primary-key.webp)
+
 Recently, I've been harnessing the power of [Supabase](https://supabase.com/) to scaffold my latest minimum viable products (MVPs) using [NextJS](https://nextjs.org/) or [NuxtJS](https://nuxt.com/). To say the least, I've been thoroughly impressed with both the range of features and DX it offers. Supabase is an open-source Firebase alternative. It provides an instantaneous, real-time backend service that uses Postgres as its primary database. It also offers a range of other features, including authentication, storage, and serverless functions. You can find out more about Supabase [here](https://supabase.com/docs/).
 
 ## What I need to do
