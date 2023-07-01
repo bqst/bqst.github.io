@@ -562,7 +562,7 @@ end
 
 ### www to non-www redirection
 
-In SEO, one of the recurring problems is the **duplicate content**, which corresponds to two different pages containing the same content. This problem is very often caused by the duplication of content between the non-www (http://example.com) and the www version (http://www.example.com).
+In SEO, one of the recurring problems is the **duplicate content**, which corresponds to two different pages containing the same content. This problem is very often caused by the duplication of content between the non-www `http://example.com` and the www version `http://www.example.com`.
 
 To work around this problem, a simple technique:
 
@@ -682,13 +682,13 @@ Feel free to share and ask any questions or remarks in comment, we will be happy
 
 ## Special thanks
 
-[https://www.antoine-brisset.com/blog/seo-ruby-on-rails-1/]
-[https://nebulab.it/blog/abc-of-seo-for-ruby-on-rails-developers/]
-[https://2017doneright.com/comprehensive-guide-on-seo-in-rails-8b124ca81d37]
-[https://www.amberbit.com/blog/2015/4/23/seo-basics-for-rails-developers/]
-[https://www.inboundio.com/Blog/seo-for-ruby-on-rails-complete-guide]
-[http://codkal.com/seo-ruby-rails-guide/]
-[https://www.udemy.com/ruby-on-rails-seo/]
-[https://www.lewagon.com/blog/tuto-setup-metatags-rails]
-[https://www.pluralsight.com/guides/ruby-ruby-on-rails/using-https-with-ruby-on-rails]
-[https://github.com/hardhatdigital/google-page-speed-guidelines]
+- [https://www.antoine-brisset.com/blog/seo-ruby-on-rails-1/](https://www.antoine-brisset.com/blog/seo-ruby-on-rails-1/)
+- [https://nebulab.it/blog/abc-of-seo-for-ruby-on-rails-developers/](https://nebulab.it/blog/abc-of-seo-for-ruby-on-rails-developers/)
+- [https://2017doneright.com/comprehensive-guide-on-seo-in-rails-8b124ca81d37](https://2017doneright.com/comprehensive-guide-on-seo-in-rails-8b124ca81d37)
+- [https://www.amberbit.com/blog/2015/4/23/seo-basics-for-rails-developers/](https://www.amberbit.com/blog/2015/4/23/seo-basics-for-rails-developers/)
+- [https://www.inboundio.com/Blog/seo-for-ruby-on-rails-complete-guide](https://www.inboundio.com/Blog/seo-for-ruby-on-rails-complete-guide)
+- [http://codkal.com/seo-ruby-rails-guide/](http://codkal.com/seo-ruby-rails-guide/)
+- [https://www.udemy.com/ruby-on-rails-seo/](https://www.udemy.com/ruby-on-rails-seo/)
+- [https://www.lewagon.com/blog/tuto-setup-metatags-rails](https://www.lewagon.com/blog/tuto-setup-metatags-rails)
+- [https://www.pluralsight.com/guides/ruby-ruby-on-rails/using-https-with-ruby-on-rails](https://www.pluralsight.com/guides/ruby-ruby-on-rails/using-https-with-ruby-on-rails)
+- [https://github.com/hardhatdigital/google-page-speed-guidelines](https://github.com/hardhatdigital/google-page-speed-guidelines)
