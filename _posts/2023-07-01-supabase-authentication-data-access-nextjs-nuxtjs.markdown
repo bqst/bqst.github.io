@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Supabase : User Authentication and Data Access in NextJS / NuxtJS"
+title: "Supabase: User Authentication, Relationships and Data Access in NextJS / NuxtJS"
 date: 2023-07-01 12:00:10 +0100
 categories: [database, web development]
 tags: [supabase, nextjs, nuxtjs]
