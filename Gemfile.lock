@@ -112,7 +112,6 @@ GEM
       rouge (>= 1.7, < 4)
       safe_yaml (~> 1.0)
       webrick (>= 1.0)
-    jekyll-analytics (0.1.14)
     jekyll-avatar (0.8.0)
       jekyll (>= 3.0, < 5.0)
     jekyll-coffeescript (1.2.2)
@@ -260,11 +259,8 @@ GEM
       ethon (>= 0.9.0)
     tzinfo (1.2.11)
       thread_safe (~> 0.1)
-    tzinfo-data (1.2024.2)
-      tzinfo (>= 1.0.0)
     unicode-display_width (1.8.0)
     uri (0.13.1)
-    wdm (0.1.1)
     webrick (1.9.0)
     zeitwerk (2.7.1)
 
@@ -277,14 +273,10 @@ DEPENDENCIES
   faraday-retry
   github-pages
   jekyll
-  jekyll-analytics (~> 0.1.12)
-  jekyll-feed (~> 0.12)
+  jekyll-feed
   jekyll-seo-tag
-  jekyll-sitemap (~> 1.4)
+  jekyll-sitemap
   minima
-  tzinfo (~> 1.2)
-  tzinfo-data
-  wdm (~> 0.1.1)
   webrick (~> 1.7)
 
 BUNDLED WITH
