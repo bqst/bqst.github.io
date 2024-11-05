@@ -65,7 +65,16 @@ Now, to automate the unlocking process, you can schedule a cron job with pg_cron
 To add this job, you'd run a command like:
 
 ```sql
-SELECT cron.schedule('*/15 * * * *', $$UPDATE blog_posts SET is_locked = false, locked_until = NULL WHERE id = <post_id> AND locked_until <= NOW()$$);
+SELECT cron.schedule(
+  '<unique_job_name>',
+  '*/15 * * * *', 
+  $$
+    UPDATE blog_posts 
+    SET is_locked = false, locked_until = NULL 
+    WHERE id = <post_id> 
+    AND locked_until <= NOW()
+  $$
+);
 ```
 
 In this command, replace `<unique_job_name>` with a unique name for this job, and `<post_id>` with the id of the blog post.
