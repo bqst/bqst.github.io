@@ -4,7 +4,7 @@ title: "How to Launch a Startup with $0 Marketing Budget: A Step-by-Step Guide"
 date: 2024-11-24 12:00:00 +0000
 categories: [startups, marketing]
 tags: [growth hacking, social listening, bootstrapping]
-author: your_name
+author: bqst
 summary: "Learn how to launch a startup without spending a cent on marketing. This guide covers social listening tools, Reddit strategies, parasite marketing, cold outreach, and more."
 ---
 
