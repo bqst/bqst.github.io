@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How to Setup GitHub Notifications on Discord with Webhooks"
-date: 2026-02-23 12:00:00 +0000
+date: 2026-02-23 00:00:00 +0000
 categories: [tutorial]
 tags: [github, discord, webhook, notifications, devops, automation]
 author: bqst
